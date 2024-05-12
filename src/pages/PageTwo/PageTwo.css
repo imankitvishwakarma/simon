@@ -1,0 +1,25 @@
+.page-two-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 750px;
+    margin: 0 auto;
+    height: 64vh;
+    align-items: center;
+}
+.page-two-box {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 4px 20px;
+    max-width: 244px;
+    width: 100%;
+    text-align: center;
+}
+.page-two-content .page-two-box:first-child{
+    background: #89ba17;
+}
+.page-two-content .page-two-box:last-child{
+    background: #00b4ed;
+
+}

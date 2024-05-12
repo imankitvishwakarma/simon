@@ -1,0 +1,15 @@
+.main-content{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    min-height: 86vh
+}
+.next-btn {
+    text-align: right;
+}
+.next-btn a {
+    font-size: 20px;
+    color: #005baa;
+    font-weight: 500;
+    cursor: pointer;
+}

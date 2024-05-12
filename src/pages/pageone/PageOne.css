@@ -1,0 +1,53 @@
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+
+}
+
+.boxes .box {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+.boxes .box img {
+    max-width: 89px;
+    margin: 0 auto;
+    z-index: 0;
+}
+.boxes .box h3{
+    text-align: center;
+}
+.started-form .d-flex{
+    margin-bottom: 15px;
+}
+.started-form .d-flex label {
+    display: flex;
+    align-items: start;
+}
+.started-form .d-flex label p{
+    margin: 0;
+    margin-left: 4px;
+}
+.started-form {
+    background: #f0f9db;
+    padding: 42px 38px 20px 38px;
+    margin-top: -38px;
+    min-height: 234px;
+}
+
+.skip-and-next-btn {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+}
+button.submit-btn {
+    font-size: 20px;
+    color: #005baa;
+    font-weight: 500;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    text-decoration: underline;
+}

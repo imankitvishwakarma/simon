@@ -1,0 +1,36 @@
+.page-width{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.main-heading img {
+    text-align: right;
+    max-width: 76px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+}
+.page-width.main-heading{
+    height: 0;
+}
+.main {
+    margin-top: -26px;
+}
+/*  */
+h1 {
+    font-size: 67px;
+    color: #005BAA;
+}
+h2 {
+    font-size: 38px;
+    color: #005baa;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+/*  */
+
+
+
+
